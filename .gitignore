@@ -1,23 +1,83 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testing
 /coverage
+/jest-cache/
+/jest-config/
 
-# production
+# Production
 /build
 
-# misc
+# Miscellaneous
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.backup
+.env.*.backup
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled output
+dist/
+out/
+tmp/
+temp/
+
+# Build artifacts
+*.tgz
+*.gz
+
+# IntelliJ IDEA files
+/.idea
+/*.iml
+
+# Mac OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Windows image file caches
+*.stackdump
+
+# Linux Trash
+.Trash-*
+
+# Possible sensitive files
+*.pem
+*.key
+*.crt
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
